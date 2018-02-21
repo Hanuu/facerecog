@@ -1,1 +1,6 @@
+라즈베리 파이 설치
 https://blog.naver.com/roboholic84/221139256044
+cmake -D CMAKE_BUILD_TYPE=RELEASE \ -D CMAKE_INSTALL_PREFIX=/usr/local \ -D INSTALL_PYTHON_EXAMPLES=ON \ -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib-3.3.0/modules \ -D BUILD_EXAMPLES=ON ..
+
+Facial Regnition
+https://thinkrpi.wordpress.com/2013/05/22/opencvpi-cam-step-2-compilation/
