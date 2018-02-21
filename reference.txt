@@ -4,3 +4,20 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \ -D CMAKE_INSTALL_PREFIX=/usr/local \ -D INST
 
 Facial Regnition
 https://thinkrpi.wordpress.com/2013/05/22/opencvpi-cam-step-2-compilation/
+
+-------------------------------------CMakeLists-------------
+cmake_minimum_required(VERSION 2.8)
+project( camcv )
+SET(COMPILE_DEFINITIONS -Werror)
+include_directories(/opt/vc/userland-master/host_applications/linux/libs/bcm_host/include)
+include_directories(/opt/vc/userland-master/host_applications/linux/libs/sm)
+include_directories(/opt/vc/userland-master/interface/vcos)
+include_directories(/opt/vc/userland-master)
+include_directories(/opt/vc/include)
+include_directories(/opt/vc/userland-master/interface/vcos/pthreads)
+include_directories(/opt/vc/userland-master/interface/vmcs_host/linux)
+include_directories(/opt/vc/include/GLES)
+include_directories(/opt/vc/include/GLES2)
+include_directories(/home/camcv)
+add_executable(camcv RaspiCamControl.c RaspiCLI.c RaspiPreview.c gl_scenes/square.c gl_scenes/mirror.c gl_scenes/models.c gl_scenes/teapot.c gl_scenes/yuv.c gl_scenes/sobel.c gl_scenes/vcsm_square.c tga.c RaspiTexUtil.c RaspiTex.c camcv.c)
+target_link_libraries(camcv /usr/lib/arm-linux-gnueabihf/libm.so /opt/vc/lib/libmmal_core.so /opt/vc/lib/libmmal_util.so /opt/vc/lib/libmmal_vc_client.so /opt/vc/lib/libvcos.so /opt/vc/lib/libbcm_host.so /opt/vc/lib/libvcsm.so /opt/vc/lib/libGLESv2.so /opt/vc/lib/libEGL.so pthread)
