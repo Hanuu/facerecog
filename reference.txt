@@ -7,3 +7,6 @@ https://thinkrpi.wordpress.com/2013/05/22/opencvpi-cam-step-2-compilation/
 
 Facial Regnition in Korean
 http://answerofgod.tistory.com/entry/OpenCV-for-RaspberryPi-3Rapsbian-Stretch-4OPENCV-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC?category=657835
+
+new reference
+https://thinkrpi.wordpress.com/2013/04/05/step-3-install-softwares-for-webcam-and-computer-vision/comment-page-1/#comment-5723 출처: http://answerofgod.tistory.com/entry/OPENCV-RASPBERRY-PI3-JESSIE-3-OPENCV-라이브러리?category=657835 [The Answer's Engineering Blog]
