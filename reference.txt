@@ -15,3 +15,8 @@ http://webnautes.tistory.com/1137
 new reference
 https://thinkrpi.wordpress.com/2013/04/05/step-3-install-softwares-for-webcam-and-computer-vision/comment-page-1/#comment-5723 출처: http://answerofgod.tistory.com/entry/OPENCV-RASPBERRY-PI3-JESSIE-3-OPENCV-라이브러리?category=657835 [The Answer's Engineering Blog]
 >>>>>>> 3faa6fccd4ed6f8c2bc0a8594cc6669718195493
+
+
+===========
+gyro sensor
+https://www.raspberrypi.org/forums/viewtopic.php?t=100189
