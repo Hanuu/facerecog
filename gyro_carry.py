@@ -16,9 +16,9 @@ def is_carrying(x,y,z,counter):
         average_y = sum(y) /10
         average_z = sum(z) /10
         
-        x_determine = average_x - x[9]
-        y_determine = average_y - y[9]
-        z_determine = average_z - z[9]
+        x_determine = average_x - sum(x[7:])/3
+        y_determine = average_y - sum(y[7:])/3
+        z_determine = average_z - sum(z[7:])/3
         
         factor=40
         
