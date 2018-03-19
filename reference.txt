@@ -20,3 +20,4 @@ https://thinkrpi.wordpress.com/2013/04/05/step-3-install-softwares-for-webcam-an
 ===========
 gyro sensor
 https://www.raspberrypi.org/forums/viewtopic.php?t=100189
+https://tutorials-raspberrypi.com/measuring-rotation-and-acceleration-raspberry-pi/
