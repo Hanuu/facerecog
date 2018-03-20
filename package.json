@@ -1,0 +1,26 @@
+{
+  "name": "qualcomm",
+  "version": "1.0.0",
+  "description": "Qualcomm Server Code",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chaho12/go-out-IOT.git"
+  },
+  "author": "Jaeho Yoo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chaho12/go-out-IOT/issues"
+  },
+  "homepage": "https://github.com/Chaho12/go-out-IOT#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "request": "^2.85.0",
+    "try-json": "^1.0.1",
+    "tryjson": "^1.1.4"
+  }
+}
