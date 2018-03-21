@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Chaho12/go-out-IOT#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "child_process": "^1.0.2",
     "express": "^4.16.3",
     "request": "^2.85.0",
     "try-json": "^1.0.1",

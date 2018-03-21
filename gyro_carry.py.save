@@ -21,7 +21,7 @@ def is_carrying(x,y,z,counter):
         y_determine = average_y - sum(y[7:])/3
         z_determine = average_z - sum(z[7:])/3
         
-        factor=10
+        factor=40
         
         if x_determine > factor or y_determine > factor or z_determine > factor:
             return 1
@@ -96,13 +96,12 @@ if __name__=="__main__":
 
         
         #print("carrying:")
-        #print(is_carrying(x_outs,y_outs,z_outs,counter))
+        #prin)
 	if counter==1:
-		print(is_carrying(x_outs,y_outs,z_outs,counter))
+		print("is_carrying	res.json(json)
+	res.end()
+	console.log("send On status to server");")
 		sys.stdout.flush()
-		break
-#	print(clock)
 
-
-   # print("1")
-   # sys.stdout.flush()
+#    print("1")
+#   sys.stdout.flush()
